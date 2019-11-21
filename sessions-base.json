@@ -1,0 +1,72 @@
+{
+  "Easy": {
+    "mode": "Easy",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "favImage": null
+      }
+    ]
+  },
+  "Normal": {
+    "mode": "Normal",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "favImage": null
+      }
+    ]
+  },
+  "Hard": {
+    "mode": "Hard",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "favImage": null
+      }
+    ]
+  },
+  "Hell": {
+    "mode": "Hell",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "favImage": null
+      }
+    ]
+  },
+  "Trash": {
+    "mode": "Unknown",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "favImage": null
+      }
+    ]
+  }
+}
