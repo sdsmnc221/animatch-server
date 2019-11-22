@@ -39,27 +39,13 @@ initializeDb(db => {
 
   const FILE_NAME = "./sessions.json";
 
-  app.post("/save", function(req, res) {
-    res.send(JSON.stringify(req.body));
-  });
-
-  app.get("/save-test", function(req, res) {
-    console.log(req.body);
-    res.send("hey");
-  });
-
   app.get("/save", function(req, res) {
-    const q = req.query;
-    const session = {
-      mode: q.mode || null,
-      username: q.username || null,
-      country: q.country || null,
-      timer: q.timer || null,
-      endGameStatus: q.endGameStatus || null,
-      timeCreated: q.timeCreated || null,
-      timeElapsed: q.timeElapsed || null,
-      favImage: q.favImage || null
-    };
+    console.log(req.query);
+    res.send(JSON.stringify(req.query));
+  });
+
+  app.post("/save", function(req, res) {
+    const { body: session } = req;
 
     readFile(FILE_NAME, function(err, data) {
       if (err) {
@@ -80,11 +66,12 @@ initializeDb(db => {
         if (err) {
           res.status(404).send(err);
         } else {
-          res.send({
+          const data = {
             status: "Session saved",
             newSession,
             allSessions
-          });
+          };
+          res.send(JSON.stringify(data));
         }
       });
     }
