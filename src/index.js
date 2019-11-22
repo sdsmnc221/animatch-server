@@ -40,6 +40,10 @@ initializeDb(db => {
   const FILE_NAME = "./sessions.json";
 
   app.post("/save", function(req, res) {
+    res.send(req.body);
+  });
+
+  app.get("/save-test", function(req, res) {
     res.send(req);
   });
 
