@@ -44,7 +44,7 @@ initializeDb(db => {
   });
 
   app.get("/save-test", function(req, res) {
-    res.send(req);
+    res.send("hey");
   });
 
   app.get("/save", function(req, res) {
