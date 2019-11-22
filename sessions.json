@@ -1,1 +1,77 @@
-{"Easy":{"mode":"Easy","sessions":[{"username":null,"country":null,"timer":null,"endGameStatus":null,"timeCreated":null,"timeElapsed":null,"favImage":null}]},"Normal":{"mode":"Normal","sessions":[{"username":null,"country":null,"timer":null,"endGameStatus":null,"timeCreated":null,"timeElapsed":null,"favImage":null}]},"Hard":{"mode":"Hard","sessions":[{"username":null,"country":null,"timer":null,"endGameStatus":null,"timeCreated":null,"timeElapsed":null,"favImage":null}]},"Hell":{"mode":"Hell","sessions":[{"username":null,"country":null,"timer":null,"endGameStatus":null,"timeCreated":null,"timeElapsed":null,"favImage":null}]},"Trash":{"mode":"Unknown","sessions":[{"username":null,"country":null,"timer":null,"endGameStatus":null,"timeCreated":null,"timeElapsed":null,"favImage":null},{"mode":null,"username":null,"country":null,"timer":null,"endGameStatus":null,"timeCreated":null,"timeElapsed":null,"favImage":null}]}}
+{
+  "Easy": {
+    "mode": "Easy",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "moves": 0,
+        "favImage": null
+      }
+    ]
+  },
+  "Normal": {
+    "mode": "Normal",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "moves": 0,
+        "favImage": null
+      }
+    ]
+  },
+  "Hard": {
+    "mode": "Hard",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "moves": 0,
+        "favImage": null
+      }
+    ]
+  },
+  "Hell": {
+    "mode": "Hell",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "moves": 0,
+        "favImage": null
+      }
+    ]
+  },
+  "Trash": {
+    "mode": "Unknown",
+    "sessions": [
+      {
+        "username": null,
+        "country": null,
+        "timer": null,
+        "endGameStatus": null,
+        "timeCreated": null,
+        "timeElapsed": null,
+        "moves": 0,
+        "favImage": null
+      }
+    ]
+  }
+}

@@ -9,6 +9,7 @@
         "endGameStatus": null,
         "timeCreated": null,
         "timeElapsed": null,
+        "moves": 0,
         "favImage": null
       }
     ]
@@ -23,6 +24,7 @@
         "endGameStatus": null,
         "timeCreated": null,
         "timeElapsed": null,
+        "moves": 0,
         "favImage": null
       }
     ]
@@ -37,6 +39,7 @@
         "endGameStatus": null,
         "timeCreated": null,
         "timeElapsed": null,
+        "moves": 0,
         "favImage": null
       }
     ]
@@ -51,6 +54,7 @@
         "endGameStatus": null,
         "timeCreated": null,
         "timeElapsed": null,
+        "moves": 0,
         "favImage": null
       }
     ]
@@ -65,6 +69,7 @@
         "endGameStatus": null,
         "timeCreated": null,
         "timeElapsed": null,
+        "moves": 0,
         "favImage": null
       }
     ]

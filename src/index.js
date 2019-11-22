@@ -39,6 +39,10 @@ initializeDb(db => {
 
   const FILE_NAME = "./sessions.json";
 
+  app.post("/save", function(req, res) {
+    res.send(req);
+  });
+
   app.get("/save", function(req, res) {
     const q = req.query;
     const session = {
